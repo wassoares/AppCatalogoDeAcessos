@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:id="@+id/item_txtLetra"
+        android:text="L"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingStart="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/item_txtServico"
+            android:text="servico"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:id="@+id/item_txtLogin"
+            android:text="login"
+            android:textSize="24dp"
+            android:textColor="#212121"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
